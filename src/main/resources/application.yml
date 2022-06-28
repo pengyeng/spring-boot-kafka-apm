@@ -1,0 +1,9 @@
+server:
+    port: 9093
+
+management:
+    endpoints:
+        enabled-by-default: true
+        web:
+            exposure:
+                include: "*"
